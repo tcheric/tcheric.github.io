@@ -1,5 +1,3 @@
-# Python Programming Handbook
-
 ### Contents:
 - [Data Structures](#data-structures)
   - [Lists](#lists)
@@ -12,23 +10,54 @@
   - [Tuples](#tuples)
   - [Enumerate](#enumerate)
 
-## *Data Structures*
-### Lists
----
-### Dictionaries 
----
-### Sets  
----
-## *Algorithms*
-### Search Sort
----
-## *Programming Techniques*
-### Strings
----
-### Tuples  
----
-### Enumerate
----
+# *Data Structures*
+## Lists
+### Initiaialising a List
+```python
+# Empty list
+new_list = []
+# Populated list
+new_list = [1, 2, 3]
+# Fixed length list
+new_list = [-1] * list_length
+```
+### List Indexing and Slicing
+```python
+# First item
+first_item = my_list[0]
+# Nested list value
+nested_item = my_list[0][1]
+# Negative indexing
+last_item = my_list[-1]
+
+# my_list = ['a', 'b', 'c', 'd', 'e', 'f', 'g']
+# Index 2 to index 4
+sliced_list = my_list[2:5] # ['c', 'd', 'e']
+# Index 5 to end
+sliced_list = my_list[5:] # ['f', 'g']
+```
+   
+### List Methods
+```python
+# index()
+index = animals.index('dog')
+
+```
+   
+## Dictionaries 
+   
+## Sets  
+   
+# *Algorithms*
+## Search Sort
+   
+# *Programming Techniques*
+## Strings
+   
+## Tuples  
+   
+## Enumerate
+   
 
 # Heading 1
 ## Heading 2
