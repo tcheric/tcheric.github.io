@@ -20,6 +20,8 @@ new_list = []
 new_list = [1, 2, 3]
 # Fixed length list
 new_list = [-1] * list_length
+# Fixed lenggth list of lists
+new_list = [[] for _ in range(list_length)]
 ```
 ### List Indexing and Slicing
 ```python
