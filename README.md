@@ -89,6 +89,17 @@ my_list.clear()
 ## Dictionaries 
    
 ## Sets  
+```python
+# Initialise
+my_set = {1, 2, 3}
+# Initialise empty
+x = set()
+```
+- Sets are iterable, unordered, with no duplicates.
+- Cannot use indexing
+- Can turn into ordered with `list(my_set)`
+- add(), update() - *multiple*, discard(), remove() - *throws err*, pop() - *random*, clear(), copy()
+- union(), intersection(), difference(), symmetric_difference(), issubset(), issuperset()
 
 ## Linked Lists 
 ### Detecting cycles
