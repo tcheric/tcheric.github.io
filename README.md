@@ -89,6 +89,37 @@ my_list.clear()
 ## Dictionaries 
    
 ## Sets  
+
+## Linked Lists 
+### Detecting cycles
+```python
+# Compare nodes with a visited set
+    if head == None:
+        return False
+        
+    visited = set()
+    curr = head
+    while curr:
+        if curr in visited:
+            return 1
+        visited.add(curr)
+        curr = curr.next
+    return 0
+    
+# Floyd cycle detection algorithm (Tortoise-and-Hare) 
+    if head == None:
+        return False
+        
+    slow = head
+    fast = head.next # WHY
+    while (slow != fast):
+        if (fast == None or fast.next == None):
+            return False
+        else:
+            slow = slow.next
+            fast = fast.next.next
+    return True
+```
    
 # *Algorithms*
 ## Search Sort
