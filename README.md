@@ -20,7 +20,7 @@ new_list = []
 new_list = [1, 2, 3]
 # Fixed length list
 new_list = [-1] * list_length
-# Fixed lenggth list of lists
+# Fixed length list of lists
 new_list = [[] for _ in range(list_length)]
 ```
 ### List Indexing and Slicing
@@ -85,7 +85,14 @@ new_list = my_list.copy()
 # CLEAR() removes every elem in a list
 my_list.clear()
 ```
-   
+
+### Advanced List Techniques
+```python
+# Compare every element in list to one another, no repetition
+ for i in range(len(my_list)):
+  for j in range(i + 1, len(my_list)):
+      compare(mylist[i], mylist[j])
+ ```
 ## Dictionaries 
    
 ## Sets  
