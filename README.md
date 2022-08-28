@@ -101,6 +101,14 @@ x = set()
 - add(), update() - *multiple*, discard(), remove() - *throws err*, pop() - *random*, clear(), copy()
 - union(), intersection(), difference(), symmetric_difference(), issubset(), issuperset()
 
+```python
+# Get every unique subset of a set (Powerset)
+  my_list = list(s) 
+  powerset = [[]]
+  for num in my_list:
+      powerset += [prev_item + [num] for prev_item in powerset]
+```
+
 ## Linked Lists 
 ### Detecting cycles
 ```python
