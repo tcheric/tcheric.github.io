@@ -93,6 +93,13 @@ my_list.clear()
   for j in range(i + 1, len(my_list)):
       compare(mylist[i], mylist[j])
  ```
+ 
+ ### 2D Arrays
+```python
+# Initialise
+arr = [[0 for _ in range(columns)] for _ in range(rows)]
+```
+
 ## Dictionaries 
    
 ## Sets  
