@@ -156,7 +156,29 @@ x = set()
    
 # *Algorithms*
 ## Search Sort
-   
+### Binary Search
+```python
+# Binary search number in list (reversed, returns ranking for in between casess)
+def reverseBinarySearchApprox(item, list):
+    low = 0
+    high = len(list) - 1
+    
+    while low <= high:
+        mid = (low + high) // 2
+        if list[mid] == item:
+            # Returns if item matches a value in list
+            return mid
+        elif list[mid] < item:
+            high = mid - 1
+        else:
+            low = mid + 1
+    
+    # If doesn't match any value, return adjacent ranking
+    if item > list[mid]:
+        return mid
+    else :
+        return mid+1  
+ 
 # *Programming Techniques*
 ## Iterator
 
