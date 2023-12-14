@@ -3,6 +3,7 @@
   - [Lists](#lists)
   - [Dictionaries](#dictionaries)
   - [Sets](#sets)
+  - [Matrices](#matrices)
 - [Algorithms](#algorithms)
   - [Search Sort](#search-sort)
 - [Programming Techniques](#programming-techniques)
@@ -153,7 +154,16 @@ x = set()
             fast = fast.next.next
     return True
 ```
-   
+## Matrices 
+### Tranpose Matrix
+```python
+transpose_matrix = zip(*matrix)
+# zip() takes arguments and aggregates them into a tuple.
+# - Eg. zip([1,2,3],[4,5,6]) == [(1,4),(2,5),(3,6)].
+# - If uneven number of elems in input, stops at end of smallest iterable.
+# *list unpacks a list,
+# - Eg. *[(1,2,3),(4,5,6)] == (1,2,3),(4,5,6) 
+```
 # *Algorithms*
 ## Search Sort
 ### Binary Search
