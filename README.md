@@ -1,17 +1,17 @@
 ### Contents:
-- [Data Structures](#data-structures)
-  - [Lists](#lists)
-  - [Dictionaries](#dictionaries)
-  - [Sets](#sets)
-  - [Matrices](#matrices)
-- [Algorithms](#algorithms)
-  - [Search Sort](#search-sort)
-- [Programming Techniques](#programming-techniques)
-  - [Strings](#strings)
-  - [Tuples](#tuples)
-  - [Enumerate](#enumerate)
+- [1 Data Structures](#data-structures)
+  - [1A Lists](#lists)
+  - [1B Dictionaries](#dictionaries)
+  - [1C Sets](#sets)
+  - [1D Matrices](#matrices)
+- [2 Algorithms](#algorithms)
+  - [2A Search Sort](#search-sort)
+- [3 Programming Techniques](#programming-techniques)
+  - [3A Strings](#strings)
+  - [3B Tuples](#tuples)
+  - [3C Enumerate](#enumerate)
 
-# *Data Structures*
+# *1 Data Structures*
 ## Lists
 ### Initialising a List
 ```python
@@ -164,7 +164,7 @@ transpose_matrix = zip(*matrix)
 # *list unpacks a list,
 # - Eg. *[(1,2,3),(4,5,6)] == (1,2,3),(4,5,6) 
 ```
-# *Algorithms*
+# *2 Algorithms*
 ## Search Sort
 ### Binary Search
 ```python
@@ -189,7 +189,7 @@ def reverseBinarySearchApprox(item, list):
     else :
         return mid+1  
  
-# *Programming Techniques*
+# *3 Programming Techniques*
 ## Iterator
 
 ## Strings
