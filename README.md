@@ -108,7 +108,15 @@ arr = range(len(x)-1, -1, -1)
 for item in arr:
 	print(item) # 2, 1, 0
  ```
- 
+
+```python
+# Convert linked list into Python list
+arr = []
+while head:
+    arr.append(head.val)
+    head = head.next
+```
+
  ### 2D Arrays
 ```python
 # Initialise
