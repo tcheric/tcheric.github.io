@@ -94,6 +94,20 @@ my_list.clear()
   for j in range(i + 1, len(my_list)):
       compare(mylist[i], mylist[j])
  ```
+
+```python
+# Loop thru list backwards
+x = [0, 1, 2]
+#len(x) = 3
+
+arr = range(0, len(x))
+for item in arr:
+	print(item) # 0, 1, 2
+
+arr = range(len(x)-1, -1, -1)
+for item in arr:
+	print(item) # 2, 1, 0
+ ```
  
  ### 2D Arrays
 ```python
