@@ -72,7 +72,7 @@ removed_element = my_list.pop(index)
 # COUNT() returns the number of occurences of an elem
 occurences = my_list.count('elem')
 
-# REVERSE() the order of list elements (mutates)
+# REVERSE() the order of list elements (mutates) NB: cannot be chained, needs its own line
 my_list.reverse()
 
 # SORT() the list elements ascending, optional params (key=..., reverse=...) (mutates)
